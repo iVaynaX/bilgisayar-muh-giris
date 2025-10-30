@@ -1,0 +1,17 @@
+﻿using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Birinci sayiyi gir: ");
+        double a = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Ikinci sayiyi gir: ");
+        double b = Convert.ToDouble(Console.ReadLine());
+
+        double sonuc = a * b;
+
+        Console.WriteLine("Sonuc: " + sonuc);
+    }
+}
