@@ -27,8 +27,22 @@ class Program
         else if (secim == 3){
         double sonuc = a * b;
 
+        else if (secim==4){
+            if (sayi2 == 0)
+            {
+                Console.WriteLine("Hata: Bir sayı sıfıra bölünemez!");
+                islemYapildi = false; // Hata oldu, işlem yapılmadı
+            }
+            else
+            {
+                sonuc = sayi1 / sayi2;
+                Console.WriteLine($"\nSonuç: {sayi1} / {sayi2} = {sonuc}");
+            }
+        }    
+
         Console.WriteLine("Sonuc: " + sonuc);
         }
     }
 }
+
 
